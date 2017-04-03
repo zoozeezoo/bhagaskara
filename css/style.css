@@ -1,0 +1,506 @@
+/* FONTS */
+
+@font-face {
+    font-family: 'existencelight';
+    src: url('Existence-Light-webfont.eot');
+    src: url('Existence-Light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/Existence-Light-webfont.woff') format('woff'), url('Existence-Light-webfont.ttf') format('truetype'), url('Existence-Light-webfont.svg#existencelight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* COLORS*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid pink;*/
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+.imgBkg {
+    background-image: url("../images/head_img.png");
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.name {
+  width: 100%;
+  text-align: center;
+  font-family: 'existencelight';
+  font-size: 4em;
+  font-weight: 600;
+  color: white;
+  position: absolute;
+  top: 7%;
+}
+
+.name span {
+  color: purple;
+}
+
+.imgBkg p {
+  width: 100%;
+  text-align: center;
+  font-family: 'Lato-Hairline';
+  color: white;
+}
+
+.imgBkg p:nth-child(2) {
+  font-size: 30px;
+  position: absolute;
+  top: 23%;
+}
+
+.imgBkg p:nth-child(3) {
+  font-size: 22px;
+  position: absolute;
+  top: 30%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.containerMenu {
+  background-color: white;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  border-top: 0;
+  border-bottom: 1px solid purple;
+}
+
+.container2 {
+    width: 100%;
+    height: 500px;
+}
+
+.box1 {
+    height: 70px;
+    padding: 0 10% 0 10%;
+}
+
+
+/*nav {
+}*/
+
+nav p {
+    font-family: 'existencelight', 'Arial', sans serif;
+    font-size: 30px;
+    float: left;
+}
+
+nav p span {
+    color: purple;
+}
+
+nav ul {
+    float: right;
+    list-style-type: none;
+}
+
+nav ul li {
+    font-family: 'Lato-Hairline';
+    font-size: 16px;
+    text-transform: uppercase;
+    display: inline-block;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    color: pink;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 0 0 0 20px;
+}
+
+.outerContainer {
+    width: 100%;
+    height: 450px;
+    background-color: lightgray;
+}
+
+.box2 {
+    height: inherit;
+    /*padding-top: 100px;*/
+}
+
+.signs {
+    width: 24.5%;
+    height: 300px;
+    display: inline-block;
+    margin: 100px 1px 0 1px;
+}
+
+#heart {
+    background-image: url(../images/purple_heart.png);
+}
+
+#diamond {
+    background-image: url(../images/diamond.png);
+}
+
+#paperCup {
+    background-image: url(../images/paper_cup.png);
+}
+
+#phone {
+    background-image: url(../images/phone.png);
+}
+
+.sign {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 300px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.title, .text {
+    font-family: 'Lato-Light';
+    text-align: center;
+}
+
+.title {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.text {
+    font-size: 10px;
+}
+
+.rectangular {
+    width: 300px;
+    height: 100px;
+    border: 1px solid purple;
+    margin: 50px 40% 50px 37.5%;
+    position: relative;
+}
+
+.whiteRect1, .whiteRect2 {
+    width: 320px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+}
+
+.whiteRect1 {
+    left: 30px;
+    top: 30px;
+}
+
+.whiteRect2 {
+    right: 30px;
+    bottom: 30px;
+}
+
+.rectangular2 {
+    width: 340px;
+    margin: 50px 37% 50px 36%;
+}
+
+.header {
+    font-family: 'existencelight', 'Arial', sans serif;
+    font-size: 48px;
+    line-height: 90px;
+    text-align: center;
+    position: relative;
+    bottom: 140px;
+}
+
+.header span {
+    color: purple;
+}
+
+.box3 {
+    height: 380px;
+    padding: 0 12% 0 12%;
+}
+
+.boxLeft, .boxRight {
+    width: 49%;
+    height: 270px;
+    display: inline-block;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+#screens {
+    background-image: url("../images/screens.png");
+    width: 350px;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.boxText {
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    width: 220px;
+    height: 80px;
+    border-radius: 5px;
+    border-width: 0px;
+    box-shadow: -webkit-box-shadow: 0px 5px 4px -2px rgba(36, 36, 36, 1);
+    -moz-box-shadow: 0px 5px 4px -2px rgba(36, 36, 36, 1);
+    box-shadow: 0px 5px 4px -2px rgba(36, 36, 36, 1);
+    cursor: pointer;
+}
+
+.imgSec {
+    background-image: url("../images/sec_img.png");
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+    position: absolute;
+}
+
+.box4, .box8 {
+    padding: 0 30% 0 30%;
+}
+
+#hat {
+    background-image: url("../images/diamond.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 43%;
+    margin-top: 20%;
+}
+
+.box4 p, .box8 p {
+    font-size: 38px;
+    color: white;
+    margin-top: 7%
+}
+
+.box5 {
+    padding: 0 44% 0 44%;
+    height: 50px;
+}
+
+.leftArr {
+    background-image: url('../images/left_arr.png');
+}
+
+.rightArr {
+    background-image: url('../images/right_arr.png');
+}
+
+.leftArr, .rightArr, .fb, .google, .twit {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.arrows {
+    padding: 0 11% 0 11%;
+}
+
+.team {
+    display: inline-block;
+    padding: 60px 5% 60px 5%;
+}
+
+.box6 {
+    padding: 0 12% 0 13%;
+}
+
+.round {
+    background-image: url('../images/gray_round.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.box6 p {
+    width: 200px;
+    text-transform: uppercase;
+    padding: 10px 0 0 0;
+}
+
+.team p:nth-child(2) {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.box6 p span {
+    text-transform: capitalize;
+}
+
+.fb {
+    background-image: url('../images/fb.png');
+}
+
+.google {
+    background-image: url('../images/goog.png');
+}
+
+.media {
+    padding: 20px 15% 0 15%;
+}
+
+#bubble {
+    background-image: url("../images/diamond.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 43%;
+    margin-top: 20%;
+}
+
+.box11 {
+    padding: 50px 7% 0 7%;
+}
+
+.smButton {
+    width: 120px;
+    height: 50px;
+    display: inline-block;
+    margin-left: 12px;
+}
+
+.smButtons button {
+    background-color: white;
+    border-color: purple;
+    color: purple;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    border-width: thin;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.smButtons {
+    padding: 0 20% 0 17%;
+    margin: -100px 0 50px 0;
+}
+
+.smButtons button:hover {
+    background-color: purple;
+    color: white;
+}
+
+.item {
+    display: inline-block;
+    padding: 0 1.5% 30px 1.5%;
+    position: relative;
+}
+
+img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin-bottom: 15px;
+}
+
+img:hover {
+    opacity: 0.3;
+}
+
+.transparent {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+
+/*.transparent:hover {
+  opacity: 1;
+}*/
+
+.item p:nth-child(3) {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.box11 button {
+    margin: 20px 0 20px 39%;
+}
+
+.box12 .boxLeft, .box12 .boxRight {
+    height: 500px;
+}
+
+.box12 p {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 50px;
+}
+
+.box12 p:first-child {
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+.box12 p:nth-child(n+2) {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.twit {
+    background-image: url('../images/twit.png');
+}
+
+.form input {
+    width: 91%;
+    height: 50px;
+    margin-bottom: 45px;
+}
+
+section .container:nth-child(10) {
+    padding: 120px 0 150px 0;
+    margin-top: 140px;
+}
