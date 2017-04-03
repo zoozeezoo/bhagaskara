@@ -78,6 +78,10 @@ div {
   padding-top: 30px;
 }
 
+.clear {
+  height: 40px;
+}
+
 .sticky {
   position: fixed;
   top: 0;

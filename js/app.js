@@ -1,10 +1,12 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-    var nav = $('<nav>');
-    console.log(nav);
+    // var nav = $('<nav>');
+    // console.log(nav);
+    //
+    // var menu = nav.find('.menu');
+    // console.log(menu);
 
-    var menu = nav.find('.menu');
-    console.log(menu);
+    var menu = $('.menu')
 
     var everyLi = menu.find('li');
     console.log(everyLi);
@@ -15,8 +17,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     links.click(function(e) {
         e.preventDefault();
-        var href = $this.attr('href');
-        var offsetHeight = href.offset().top -100;
+        var href = $(this).attr('href');
+        var offsetHeight = $(href).offset().top-130;
 
         // $('html, body').animate({
         //     scrollTop: $(href).offset().top - 100
