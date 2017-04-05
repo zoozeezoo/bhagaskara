@@ -67,6 +67,78 @@ div {
   top: 30%;
 }
 
+
+
+.signsLine1, .signsLine2, .signsLine3 {
+  width: auto;
+  height: auto;
+  position: absolute;
+}
+
+.signsLine1 {
+  top: 45%;
+  left: 41%;
+}
+
+.signsLine2 {
+  top: 60%;
+  left: 24%;
+}
+
+.signsLine3 {
+  top: 75%;
+  left:47.5%;
+}
+
+.left, .right, .middle {
+  display: inline-block;
+}
+
+.middle {
+  width: 200px;
+  height: auto;
+}
+
+.signBkg {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+#pic {
+  background-image: url('../images/pic.png');
+}
+
+#babble1 {
+  background-image: url('../images/babble.png');
+}
+
+#wheel {
+  background-image: url('../images/wheel.png');
+}
+
+#team {
+  background-image: url('../images/team.png');
+}
+
+#pen {
+  background-image: url('../images/pen.png');
+}
+
+#paperPlane {
+  background-image: url('../images/paper_plane.png');
+}
+
+#bottomArr {
+  background-image: url('../images/bottom_arr.png');
+  width: 50px;
+  height: 50px;
+}
+
+
 .container {
     margin: 0 auto;
     width: 1200px;
@@ -108,6 +180,7 @@ div {
 nav p {
     font-family: 'existencelight', 'Arial', sans serif;
     font-size: 30px;
+    color: black;
     float: left;
 }
 
@@ -156,8 +229,18 @@ nav ul li a {
     margin: 100px 1px 0 1px;
 }
 
+.sign {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 300px;
+    height: 100px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
 #heart {
-    background-image: url(../images/purple_heart.png);
+    background-image: url(../images/heart.png);
 }
 
 #diamond {
@@ -172,14 +255,7 @@ nav ul li a {
     background-image: url(../images/phone.png);
 }
 
-.sign {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    width: 300px;
-    height: 100px;
-    margin-bottom: 20px;
-}
+
 
 .title, .text {
     font-family: 'Lato-Light';
@@ -295,10 +371,10 @@ button {
 }
 
 #hat {
-    background-image: url("../images/diamond.png");
+    background-image: url("../images/hat.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     width: 100px;
     height: 100px;
     position: relative;
@@ -384,11 +460,11 @@ button {
     padding: 20px 15% 0 15%;
 }
 
-#bubble {
-    background-image: url("../images/diamond.png");
+#babble2 {
+    background-image: url("../images/babble.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     width: 100px;
     height: 100px;
     position: relative;
